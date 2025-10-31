@@ -1,21 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page Title</title>
-    <link rel="stylesheet" href="#">
-    <style></style>
-  </head>
-  <body>
-    <script src="#"></script>
-  </body>
-</html>
+<head>
+  <title>Sports Minimal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
+</head>
 <body>
+<header class="site-header">
+  <h1>Sports Minimal</h1>
+  <p class="tagline">Clean, simple takes on the games we love</p>
+</header>
 
-	<p> Hello world! </p>	
-  <p> My name is [Chase Mitchell] </p>
+<nav aria-label="Primary">
+  <ul class="navlist">
+    <li><a href="index.html" aria-current="page">Home</a></li>
+    <li><a href="basketball.html">Basketball</a></li>
+    <li><a href="soccer.html">Soccer</a></li>
+    <li><a href="training.html">Training</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
 
-	</body>
 
+<main>
+  <section class="hero" aria-labelledby="welcome">
+    <div class="hero-text">
+      <h2 id="welcome">Welcome</h2>
+      <p>Explore quick reads on basketball and soccer, plus practical training notes to help you move better and recover smarter.</p>
+      <p><a class="btn" href="training.html">Jump to Training</a></p>
+    </div>
+    <figure class="hero-art">
+      <img src="images/hero-court.svg" alt="Minimal illustration of a basketball court with a ball at center court">
+    </figure>
+  </section>
+
+  <section class="grid-3" aria-labelledby="features">
+    <h2 id="features" class="sr-only">Featured Sections</h2>
+    <article class="card">
+      <img src="images/basketball.svg" alt="Minimalist orange basketball illustration">
+      <h3>Basketball</h3>
+      <p>Spacing, pace, and shot quality. A few modern trends and timeless fundamentals.</p>
+      <p><a href="basketball.html" class="text-link">Read more</a></p>
+    </article>
+    <article class="card">
+      <img src="images/soccer.svg" alt="Minimalist black and white soccer ball illustration">
+      <h3>Soccer</h3>
+      <p>Pressing triggers, build up patterns, and why fullbacks shape the game.</p>
+      <p><a href="soccer.html" class="text-link">Read more</a></p>
+    </article>
+    <article class="card">
+      <img src="images/running.svg" alt="Minimalist runner silhouette illustration">
+      <h3>Training</h3>
+      <p>Warm up flow, simple strength, recovery basics. No fluff.</p>
+      <p><a href="training.html" class="text-link">Read more</a></p>
+    </article>
+  </section>
+
+  <section aria-labelledby="list-demo">
+    <h2 id="list-demo">Quick Hits</h2>
+    <ul>
+      <li>Three SVG images with descriptive alt text for accessibility</li>
+      <li>Responsive layout using CSS Grid and Flexbox</li>
+      <li>External links with meaningful link text</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="terms">
+    <h2 id="terms">Glossary</h2>
+    <dl>
+      <dt>Zone</dt>
+      <dd>A defensive scheme that guards space instead of a specific player.</dd>
+      <dt>Press</dt>
+      <dd>Coordinated pressure to win the ball high up the pitch.</dd>
+      <dt>RPE</dt>
+      <dd>Rate of Perceived Exertion, a simple scale to gauge effort.</dd>
+    </dl>
+  </section>
+
+  <p class="ext-link">Learn more at <a href="https://www.statmuse.com/" target="_blank" rel="noopener">StatMuse for quick sports stats</a>.</p>
+</main>
+
+<footer>
+  <p>© 2025 Sports Minimal. Built as a static hobby site.</p>
+</footer>
+
+</body>
+</html>
