@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title">
-  <title>Angular energy core</title>
-  <circle cx="160" cy="160" r="140" fill="#e6f6ff" stroke="#0ea5e9" stroke-width="8"/>
-  <polygon points="160,60 240,160 160,260 80,160" fill="#38bdf8" opacity="0.8"/>
-  <circle cx="160" cy="160" r="20" fill="#111318"/>
-</svg>
