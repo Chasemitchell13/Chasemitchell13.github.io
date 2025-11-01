@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 320" role="img" aria-labelledby="title">
-  <title>Minimal hero mask</title>
-  <rect width="512" height="320" rx="24" ry="24" fill="#ffffff" />
-  <path d="M40 140 Q100 40 256 40 Q412 40 472 140 Q420 250 256 260 Q92 250 40 140 Z" fill="#111318" opacity="0.9"/>
-  <ellipse cx="176" cy="150" rx="42" ry="22" fill="#f4d35e"/>
-  <ellipse cx="336" cy="150" rx="42" ry="22" fill="#f4d35e"/>
-</svg>
